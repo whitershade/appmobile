@@ -1,11 +1,26 @@
 @import "header";
+@import url(https://fonts.googleapis.com/css?family=Exo:400,600);
 //Custom Styles Here
 body {
   margin: 0;
   font-size: 16px;
 }
 
-.main-header {}
+.main-header {
+  font-family: 'Exo', sans-serif;
+}
+
+.main-header-navigation__ul {
+  list-style: none;
+}
+
+.main-header-navigation__li {
+  display: inline-block;
+}
+
+.main-header-navigation__a {
+  text-decoration: none;
+}
 
 main {}
 

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:400,600);
 @font-face {
   font-family: "RobotoRegular";
   font-style: normal;
@@ -8,6 +9,10 @@ body,
 html {
   margin: 0;
   padding: 0; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
 
 .clearfix:after {
   content: "";
@@ -24,20 +29,19 @@ body textarea:required:valid {
 
 body {
   margin: 0;
-  color: white;
-  box-shadow: 0 0 0 2 black;
   font-size: 16px; }
 
-.main-header a {
-  font-family: Arial;
-  font-style: italic;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: bold;
-  border-top: 1px;
-  border-bottom: 2px;
-  border-left: 1px;
-  border-right: 5px; }
+.main-header {
+  font-family: 'Exo', sans-serif; }
+
+.main-header-navigation__ul {
+  list-style: none; }
+
+.main-header-navigation__li {
+  display: inline-block; }
+
+.main-header-navigation__a {
+  text-decoration: none; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
